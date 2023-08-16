@@ -20,6 +20,6 @@ entries:
     sources:
     - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
     urls:
-    - https://raseel-internal.github.io/charts/solr/solr-raseel-1.0.0.tgz
+    - https://raseel-internal.github.io/charts/solr/solr-1.0.0.tgz
     version: 1.0.0
 generated: "2023-08-16T13:15:00.987414+03:00"
