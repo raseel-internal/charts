@@ -33,7 +33,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     urls:
-    - https://github-username.github.io/charts/postgresql/postgresql-1.0.0.tgz
+    - https://raseel-internal.github.io/charts/postgresql/postgresql-1.0.0.tgz
     version: 1.0.0
   solr:
   - apiVersion: v1
@@ -55,6 +55,6 @@ entries:
     sources:
     - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
     urls:
-    - https://github-username.github.io/charts/solr/solr-1.0.0.tgz
+    - https://raseel-internal.github.io/charts/solr/solr-1.0.0.tgz
     version: 1.0.0
 generated: "2023-08-17T11:27:16.178394+03:00"
