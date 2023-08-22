@@ -1,12 +1,23 @@
 apiVersion: v1
 entries:
+  datapusher:
+  - apiVersion: v2
+    appVersion: 0.0.17
+    created: "2023-08-22T13:17:00.644883+03:00"
+    description: CKAN Datapusher helm chart
+    digest: 4787e0c54a498fa9acc26789cbeb4f7d85ff49adc2f65b8af8c8dfc474ee0b7a
+    name: datapusher
+    type: application
+    urls:
+    - https://raseel-internal.github.io/charts/datapusher/datapusher-1.0.0.tgz
+    version: 1.0.0
   postgresql:
   - annotations:
       category: Database
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.3.0
-    created: "2023-08-17T11:27:16.182975+03:00"
+    created: "2023-08-22T13:17:00.650104+03:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -34,11 +45,11 @@ entries:
     - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     urls:
     - https://raseel-internal.github.io/charts/postgresql/postgresql-1.0.0.tgz
-    version: 1.0.0
+    version: 12.5.2
   solr:
   - apiVersion: v1
     appVersion: 8.4.0
-    created: "2023-08-17T11:27:16.186225+03:00"
+    created: "2023-08-22T13:17:00.654277+03:00"
     dependencies:
     - name: zookeeper
       repository: https://kubernetes-charts-incubator.storage.googleapis.com/
@@ -57,4 +68,4 @@ entries:
     urls:
     - https://raseel-internal.github.io/charts/solr/solr-1.0.0.tgz
     version: 1.0.0
-generated: "2023-08-17T11:27:16.178394+03:00"
+generated: "2023-08-22T13:17:00.643598+03:00"
