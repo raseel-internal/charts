@@ -4,6 +4,8 @@ This is the official repository of Raseel helm charts.
 
 ### Steps to add a new chart:
 
+* Download the needed chart (if you are dealing with a customization of a sepcific chart like __datapusher__ in out case)
+* Edit the chart `values.yaml`
 * Build the chart : `helm package .`
 * Create the appropriate folder: `newchart`
 * Cp the tgz file into the new folder
